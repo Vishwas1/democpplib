@@ -3,6 +3,6 @@
 
 using namespace std;
 
-void message::printMessage(){
-    cout << "Makefile example updated\n";
+void message::printMessage(string msg){
+    cout << "Inside helloworldlib : %s !" << msg;
 }
