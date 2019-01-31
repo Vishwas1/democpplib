@@ -4,6 +4,7 @@ AUTOMAKE_OPTIONS = foreign
 
 noinst_LIBRARIES  = libhelloworld.a
 libhelloworld_a_SOURCES = helloworld.h helloworld.cc 
+libhelloworld_a_CPPFLAGS = -I$(top_srcdir)/src
 LDADD = libhelloworld.a
 
 
